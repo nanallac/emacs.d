@@ -22,6 +22,7 @@
 
 ;; Utilities
 (require 'extra-keybindings)
+(require 'editing)
 
 ;; Load all packages
 (dolist (file (directory-files packages-dir t "^[^#].*el$"))
