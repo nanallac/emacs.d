@@ -1,4 +1,4 @@
-;; Key bindingsqq
+;; Key bindings
 
 ;; Join lines
 (global-set-key (kbd "M-j")
@@ -101,3 +101,5 @@ If there's no region, the current line will be duplicated."
   "Move the current line down by N lines."
   (interactive "p")
   (move-line (if (null n) 1 n)))
+
+(provide 'editing)
