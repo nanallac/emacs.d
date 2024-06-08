@@ -6,7 +6,7 @@
  '(custom-safe-themes
    '("05692bda554c178fafe15cc3e6ab09539e7db4846eb9bb6272b97068c055a903" default))
  '(package-selected-packages
-   '(rainbow-mode paredit smartparens projectile magit better-defaults)))
+   '(restclient gptel clay direnv cider clojure-mode nix-mode vterm rainbow-mode paredit smartparens projectile magit better-defaults)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

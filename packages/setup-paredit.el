@@ -11,4 +11,3 @@
   (put 'paredit-newline 'delete-selection t))
 
 (provide 'setup-paredit)
-  

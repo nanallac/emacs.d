@@ -1,4 +1,4 @@
-;; Heavily inspired by magnars (https://github.com/magnars)
+;; Heavily inspired by (stolen from) magnars (https://github.com/magnars)
 
 
 ;; Add settings to load path
