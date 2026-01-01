@@ -20,4 +20,8 @@
 ;; Theme
 (load-theme 'default-black)
 
+;; Font
+(add-to-list 'default-frame-alist
+             '(font . "FiraCode-11"))
+
 (provide 'appearance)

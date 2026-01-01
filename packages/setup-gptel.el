@@ -15,6 +15,6 @@
         :stream t
         :key (file-to-string "~/.openrouter")
         :models '("openrouter/auto"
-                  "openai/gpt-4-turbo")))
+                  "anthropic/claude-sonnet-4")))
 
 (provide 'setup-gptel)

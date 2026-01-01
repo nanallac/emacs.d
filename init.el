@@ -28,3 +28,4 @@
 (dolist (file (directory-files packages-dir t "^[^#].*el$"))
   (when (file-regular-p file)
     (load file)))
+(put 'downcase-region 'disabled nil)
