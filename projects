@@ -1,2 +1,3 @@
 ;;; -*- lisp-data -*-
-(("/home/josh/dev/nixos-config/"))
+(("/home/josh/dev/house-maid/") ("/home/josh/dev/finances/")
+ ("/home/josh/dev/nixos-config/"))

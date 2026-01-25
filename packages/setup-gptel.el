@@ -7,7 +7,7 @@
     (insert-file-contents file)
     (buffer-string)))
 
-(setq gptel-model "openrouter/auto"
+(setq gptel-model "openrouter/claude-opus-4.5"
       gptel-backend
       (gptel-make-openai "OpenRouter"
         :host "openrouter.ai"
@@ -15,6 +15,6 @@
         :stream t
         :key (file-to-string "~/.openrouter")
         :models '("openrouter/auto"
-                  "anthropic/claude-sonnet-4")))
+                  "anthropic/claude-opus-4.5")))
 
 (provide 'setup-gptel)

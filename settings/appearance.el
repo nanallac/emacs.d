@@ -22,6 +22,6 @@
 
 ;; Font
 (add-to-list 'default-frame-alist
-             '(font . "FiraCode-11"))
+             '(font . "0xProto Nerd Font Mono-11"))
 
 (provide 'appearance)

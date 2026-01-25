@@ -6,11 +6,11 @@
  '(custom-safe-themes
    '("05692bda554c178fafe15cc3e6ab09539e7db4846eb9bb6272b97068c055a903" default))
  '(package-selected-packages
-   '(better-defaults cider clay clojure-lsp clojure-mode csv-mode direnv gptel
-                     just-mode kaocha-runner kdl-mode ligature ligatures
-                     lsp-mode lsp-ui magit multiple-cursors nix-mode org-mode
-                     paredit projectile rainbow-mode restclient smartparens
-                     vterm yaml-mode))
+   '(better-defaults cider clay clojure-lsp clojure-mode company company-mode
+                     csv-mode direnv gptel just-mode kaocha-runner kdl-mode
+                     ligature ligatures lsp-mode lsp-ui magit multiple-cursors
+                     nix-mode org-mode paredit projectile rainbow-mode
+                     restclient smartparens vterm yaml-mode))
  '(safe-local-variable-values
    '((eval progn (make-variable-buffer-local 'cider-jack-in-nrepl-middlewares)
            (add-to-list 'cider-jack-in-nrepl-middlewares
