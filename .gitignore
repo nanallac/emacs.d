@@ -57,3 +57,10 @@ flycheck_*.el
 /session.*
 /.mc-lists.el
 \#*\#
+/custom.el
+/projects
+/multisession/
+/cider-history
+/bookmarks
+/.lsp-session-v1
+/.cache/

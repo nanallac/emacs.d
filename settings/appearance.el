@@ -18,7 +18,7 @@
                            (run-with-timer 0.05 nil 'invert-face 'mode-line)))
 
 ;; Theme
-(load-theme 'default-black)
+(load-theme 'default-black t)
 
 ;; Font
 (add-to-list 'default-frame-alist

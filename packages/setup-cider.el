@@ -14,4 +14,12 @@
   (cider-save-file-on-load t)
   (cider-repl-pop-to-buffer-on-connect nil))
 
+(setq safe-local-variable-values
+      '((eval progn
+              (make-variable-buffer-local 'cider-jack-in-nrepl-middlewares)
+              (add-to-list 'cider-jack-in-nrepl-middlewares
+                           "shadow.cljs.devtools.server.nrepl/middleware"))
+        (cider-ns-refresh-after-fn . "integrant.repl/resume")
+        (cider-ns-refresh-before-fn . "integrant.repl/suspend")))
+
 (provide 'setup-cider)
