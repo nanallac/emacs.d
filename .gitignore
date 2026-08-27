@@ -56,3 +56,4 @@ flycheck_*.el
 /url/
 /session.*
 /.mc-lists.el
+\#*\#
