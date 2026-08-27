@@ -27,5 +27,6 @@
 ;; Load all packages
 (dolist (file (directory-files packages-dir t "^[^#].*el$"))
   (when (file-regular-p file)
-    (load file)))
+    (with-demoted-errors "Error loading %s: %%S"  (load file))))
+
 (put 'downcase-region 'disabled nil)
